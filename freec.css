@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin-top: 50px;
+  }
+  
+  button {
+    margin: 10px;
+    font-size: 20px;
+  }
+  
+  #time-left {
+    font-size: 48px;
+    margin-top: 20px;
+  }
+  

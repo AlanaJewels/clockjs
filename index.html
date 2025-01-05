@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>25 + 5 Clock</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="freec.css">
+</head>
+<body>
+  <div class="container text-center mt-5">
+    <h1>25 + 5 Clock</h1>
+
+    <div id="break-label">Break Length</div>
+    <div>
+      <button id="break-decrement">-</button>
+      <span id="break-length">5</span>
+      <button id="break-increment">+</button>
+    </div>
+
+    <div id="session-label">Session Length</div>
+    <div>
+      <button id="session-decrement">-</button>
+      <span id="session-length">25</span>
+      <button id="session-increment">+</button>
+    </div>
+
+    <div id="timer-label">Session</div>
+    <div id="time-left">25:00</div>
+
+    <button id="start_stop">Start / Stop</button>
+    <button id="reset">Reset</button>
+
+    <audio id="beep" src="beep.mp3" preload="auto"></audio>
+  </div>
+
+  <script src="freecodecamp5.js" defer></script>
+</body>
+</html>
